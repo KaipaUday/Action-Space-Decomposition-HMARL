@@ -1,0 +1,11 @@
+stable-baselines3[extra]
+gymnasium[mujoco]
+pettingzoo[mujoco]
+pandas 
+torch
+tensorboard
+seaborn
+scipy
+jupyter
+chess
+sb3-contrib

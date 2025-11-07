@@ -1,0 +1,12 @@
+{
+  "run_id": 5,
+  "final_reward_mean": 4951.2642352,
+  "final_reward_std": 869.7830485428168,
+  "total_timesteps": 100000,
+  "training_time_seconds": 10007.15259,
+  "start_time": "2025-10-30T21:21:36.559649",
+  "end_time": "2025-10-31T00:08:23.712239",
+  "model_path": "models/standard_rl/run_5/final_model.zip",
+  "best_model_path": "models/standard_rl/run_5/best_model.zip",
+  "log_path": "logs/standard_rl/run_5"
+}

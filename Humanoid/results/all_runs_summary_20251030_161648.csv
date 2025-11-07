@@ -1,0 +1,6 @@
+run_id,final_reward_mean,final_reward_std,total_timesteps,training_time_seconds,start_time,end_time,model_path,best_model_path,log_path
+1,3255.5742654,2019.773984006792,100000,4231.430915,2025-10-30T16:16:50.702237,2025-10-30T17:27:22.133152,models/standard_rl/run_1/final_model.zip,models/standard_rl/run_1/best_model.zip,logs/standard_rl/run_1
+2,4834.6216753,589.2791011031735,100000,4867.959553,2025-10-30T17:27:25.017300,2025-10-30T18:48:32.976853,models/standard_rl/run_2/final_model.zip,models/standard_rl/run_2/best_model.zip,logs/standard_rl/run_2
+3,3779.5456154,1429.074261056441,100000,4484.098627,2025-10-30T18:48:37.398220,2025-10-30T20:03:21.496847,models/standard_rl/run_3/final_model.zip,models/standard_rl/run_3/best_model.zip,logs/standard_rl/run_3
+4,4739.1671963,891.5491046357174,100000,4687.244127,2025-10-30T20:03:24.895263,2025-10-30T21:21:32.139390,models/standard_rl/run_4/final_model.zip,models/standard_rl/run_4/best_model.zip,logs/standard_rl/run_4
+5,4951.2642352,869.7830485428168,100000,10007.15259,2025-10-30T21:21:36.559649,2025-10-31T00:08:23.712239,models/standard_rl/run_5/final_model.zip,models/standard_rl/run_5/best_model.zip,logs/standard_rl/run_5

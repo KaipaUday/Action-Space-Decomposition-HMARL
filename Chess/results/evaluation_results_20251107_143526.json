@@ -1,0 +1,1273 @@
+{
+  "matches": [
+    {
+      "match_id": 1,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 2,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 3,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 4,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "black_win",
+      "moves": 51
+    },
+    {
+      "match_id": 5,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 6,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "black_win",
+      "moves": 239
+    },
+    {
+      "match_id": 7,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 8,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 9,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "black_win",
+      "moves": 233
+    },
+    {
+      "match_id": 10,
+      "white": "Single_1",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 11,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 12,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "black_win",
+      "moves": 195
+    },
+    {
+      "match_id": 13,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 14,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 203
+    },
+    {
+      "match_id": 15,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 16,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 17,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 18,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 19,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 20,
+      "white": "MARL_1",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 241
+    },
+    {
+      "match_id": 21,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "black_win",
+      "moves": 212
+    },
+    {
+      "match_id": 22,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 208
+    },
+    {
+      "match_id": 23,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 24,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 25,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 26,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 27,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "black_win",
+      "moves": 169
+    },
+    {
+      "match_id": 28,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 29,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 30,
+      "white": "Single_1",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 31,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 32,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 33,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 34,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 35,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 36,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 37,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 38,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "black_win",
+      "moves": 64
+    },
+    {
+      "match_id": 39,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "black_win",
+      "moves": 133
+    },
+    {
+      "match_id": 40,
+      "white": "MARL_2",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 41,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 42,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 43
+    },
+    {
+      "match_id": 43,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 44,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 45,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 46,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 47,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 48,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 49,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 50,
+      "white": "Single_1",
+      "black": "MARL_3",
+      "result": "black_win",
+      "moves": 130
+    },
+    {
+      "match_id": 51,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 52,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 53,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 54,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 55,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 56,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 57,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 58,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 59,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 60,
+      "white": "MARL_3",
+      "black": "Single_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 61,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 62,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 63,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 64,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 65,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 66,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 237
+    },
+    {
+      "match_id": 67,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 68,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 69,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 70,
+      "white": "Single_2",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 71,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 72,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 73,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 224
+    },
+    {
+      "match_id": 74,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 75,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 76,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 77,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 78,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 79,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 80,
+      "white": "MARL_1",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 81,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 82,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 83,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 84,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 85,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 86,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 87,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 88,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 89,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 90,
+      "white": "Single_2",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 91,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 92,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "black_win",
+      "moves": 20
+    },
+    {
+      "match_id": 93,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 94,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 95,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 96,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 97,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 98,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 99,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 100,
+      "white": "MARL_2",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 101,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 237
+    },
+    {
+      "match_id": 102,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 103,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "black_win",
+      "moves": 242
+    },
+    {
+      "match_id": 104,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 238
+    },
+    {
+      "match_id": 105,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 106,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 172
+    },
+    {
+      "match_id": 107,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 108,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 109,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 234
+    },
+    {
+      "match_id": 110,
+      "white": "Single_2",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 111,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 112,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 164
+    },
+    {
+      "match_id": 113,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "black_win",
+      "moves": 214
+    },
+    {
+      "match_id": 114,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 115,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 116,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 117,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 118,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 119,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 120,
+      "white": "MARL_3",
+      "black": "Single_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 121,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "black_win",
+      "moves": 138
+    },
+    {
+      "match_id": 122,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 123,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 242
+    },
+    {
+      "match_id": 124,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "black_win",
+      "moves": 232
+    },
+    {
+      "match_id": 125,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 126,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 127,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 128,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 129,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "black_win",
+      "moves": 53
+    },
+    {
+      "match_id": 130,
+      "white": "Single_3",
+      "black": "MARL_1",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 131,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 132,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 133,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 120
+    },
+    {
+      "match_id": 134,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 135,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 206
+    },
+    {
+      "match_id": 136,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 137,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 202
+    },
+    {
+      "match_id": 138,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 139,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 167
+    },
+    {
+      "match_id": 140,
+      "white": "MARL_1",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 141,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 142,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 232
+    },
+    {
+      "match_id": 143,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 144,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 145,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 146,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 147,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 148,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 149,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "black_win",
+      "moves": 182
+    },
+    {
+      "match_id": 150,
+      "white": "Single_3",
+      "black": "MARL_2",
+      "result": "draw",
+      "moves": 200
+    },
+    {
+      "match_id": 151,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 152,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 124
+    },
+    {
+      "match_id": 153,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 154,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 155,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 156,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 158
+    },
+    {
+      "match_id": 157,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 158,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 159,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 160,
+      "white": "MARL_2",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 168
+    },
+    {
+      "match_id": 161,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 162,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 163,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 164,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "black_win",
+      "moves": 91
+    },
+    {
+      "match_id": 165,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 166,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "black_win",
+      "moves": 115
+    },
+    {
+      "match_id": 167,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 168,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 169,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 170,
+      "white": "Single_3",
+      "black": "MARL_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 171,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 172,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 127
+    },
+    {
+      "match_id": 173,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 211
+    },
+    {
+      "match_id": 174,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 175,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 176,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "black_win",
+      "moves": 15
+    },
+    {
+      "match_id": 177,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 168
+    },
+    {
+      "match_id": 178,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 179,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 250
+    },
+    {
+      "match_id": 180,
+      "white": "MARL_3",
+      "black": "Single_3",
+      "result": "draw",
+      "moves": 211
+    }
+  ],
+  "summary": {
+    "total_matches": 180,
+    "single_agent_wins": 14,
+    "marl_wins": 13,
+    "draws": 153,
+    "single_agent_win_rate": 7.777777777777778,
+    "marl_win_rate": 7.222222222222221,
+    "draw_rate": 85.0
+  }
+}

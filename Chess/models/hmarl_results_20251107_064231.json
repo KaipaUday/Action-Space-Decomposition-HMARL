@@ -1,0 +1,103 @@
+{
+  "experiment_config": {
+    "n_runs": 3,
+    "timesteps_per_run": 10000000,
+    "system_type": "HMARL_sequential"
+  },
+  "results": [
+    {
+      "run_id": 1,
+      "total_episodes": 30384,
+      "wins": 0,
+      "draws": 25816,
+      "losses": 4568,
+      "win_rate": 0.0,
+      "draw_rate": 84.96577145866246,
+      "loss_rate": 15.034228541337546,
+      "avg_reward": -1.5034228541337546,
+      "avg_length": 329.1201290152712,
+      "agent_stats": {
+        "opening": {
+          "episodes": 30384,
+          "total_reward": 35963.19999999917,
+          "moves": 485917
+        },
+        "middle": {
+          "episodes": 30384,
+          "total_reward": 141584.6999999998,
+          "moves": 756897
+        },
+        "endgame": {
+          "episodes": 30384,
+          "total_reward": 632578.9999999978,
+          "moves": 8757172
+        }
+      }
+    },
+    {
+      "run_id": 2,
+      "total_episodes": 30343,
+      "wins": 0,
+      "draws": 25788,
+      "losses": 4555,
+      "win_rate": 0.0,
+      "draw_rate": 84.98830043173055,
+      "loss_rate": 15.011699568269451,
+      "avg_reward": -1.5011699568269452,
+      "avg_length": 329.5545265794417,
+      "agent_stats": {
+        "opening": {
+          "episodes": 30343,
+          "total_reward": 35852.799999999355,
+          "moves": 485216
+        },
+        "middle": {
+          "episodes": 30343,
+          "total_reward": 141152.09999999974,
+          "moves": 755649
+        },
+        "endgame": {
+          "episodes": 30343,
+          "total_reward": 633866.0000000037,
+          "moves": 8758808
+        }
+      }
+    },
+    {
+      "run_id": 3,
+      "total_episodes": 30476,
+      "wins": 0,
+      "draws": 25795,
+      "losses": 4681,
+      "win_rate": 0.0,
+      "draw_rate": 84.64037275232971,
+      "loss_rate": 15.359627247670298,
+      "avg_reward": -1.5359627247670298,
+      "avg_length": 328.11330227063917,
+      "agent_stats": {
+        "opening": {
+          "episodes": 30476,
+          "total_reward": 36144.6999999995,
+          "moves": 487409
+        },
+        "middle": {
+          "episodes": 30476,
+          "total_reward": 141873.89999999935,
+          "moves": 759130
+        },
+        "endgame": {
+          "episodes": 30476,
+          "total_reward": 631667.6000000036,
+          "moves": 8753042
+        }
+      }
+    }
+  ],
+  "summary": {
+    "mean_win_rate": 0.0,
+    "std_win_rate": 0.0,
+    "mean_avg_length": 328.9293192884507,
+    "std_avg_length": 0.6036489824160053,
+    "completed_runs": 3
+  }
+}

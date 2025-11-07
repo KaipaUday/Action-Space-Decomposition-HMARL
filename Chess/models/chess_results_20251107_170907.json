@@ -1,0 +1,65 @@
+{
+  "experiment_config": {
+    "n_runs": 13,
+    "timesteps_per_run": 100000,
+    "total_timesteps": 1300000
+  },
+  "results": [
+    {
+      "run_id": 10,
+      "total_episodes": 309,
+      "wins": 2,
+      "draws": 281,
+      "losses": 26,
+      "win_rate": 0.6472491909385114,
+      "draw_rate": 90.93851132686083,
+      "loss_rate": 8.414239482200648,
+      "avg_reward": 2.252427184466021,
+      "avg_length": 330.6343042071197
+    },
+    {
+      "run_id": 11,
+      "total_episodes": 309,
+      "wins": 5,
+      "draws": 277,
+      "losses": 27,
+      "win_rate": 1.6181229773462782,
+      "draw_rate": 89.64401294498381,
+      "loss_rate": 8.737864077669903,
+      "avg_reward": 2.588349514563108,
+      "avg_length": 329.873786407767
+    },
+    {
+      "run_id": 12,
+      "total_episodes": 311,
+      "wins": 2,
+      "draws": 278,
+      "losses": 31,
+      "win_rate": 0.6430868167202572,
+      "draw_rate": 89.38906752411575,
+      "loss_rate": 9.967845659163988,
+      "avg_reward": 2.2475884244373003,
+      "avg_length": 328.2443729903537
+    },
+    {
+      "run_id": 13,
+      "total_episodes": 310,
+      "wins": 6,
+      "draws": 278,
+      "losses": 26,
+      "win_rate": 1.935483870967742,
+      "draw_rate": 89.6774193548387,
+      "loss_rate": 8.38709677419355,
+      "avg_reward": 2.3525806451612916,
+      "avg_length": 328.2548387096774
+    }
+  ],
+  "summary": {
+    "mean_win_rate": 1.2109857139931972,
+    "std_win_rate": 0.5768375758434422,
+    "mean_draw_rate": 89.91225278769979,
+    "std_draw_rate": 0.6029155752761076,
+    "mean_avg_reward": 2.36023644215693,
+    "std_avg_reward": 0.13820871623223652
+  }
+}
