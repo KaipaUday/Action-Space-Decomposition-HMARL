@@ -44,3 +44,10 @@ python eval_single_agents.py # for single 10m and 100k.
 
 
 
+### additional exp 
+
+The following approaches are also done using MaskablePPO at later point in time.
+```bash
+python train_minimal.py #for single  
+python train_marl_simultaneous.py # Marl.
+```

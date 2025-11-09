@@ -58,7 +58,15 @@ class HMARLHumanoidEnv(ParallelEnv):
         if terminated or truncated:
             self._agents = []
         
-        infos = {agent: {'base_reward': base_reward} for agent in self._agents}
+        # Add detailed info for debugging
+        infos = {
+            agent: {
+                'base_reward': base_reward,
+                'bonus': rewards[agent] - base_reward,
+                'height': base_obs[0] if len(base_obs) > 0 else 0,
+                'velocity': base_obs[22] if len(base_obs) > 22 else 0
+            } for agent in self._agents
+        }
         return observations, rewards, terminations, truncations, infos
 
     def _combine_actions(self, actions: Dict[str, np.ndarray]) -> np.ndarray:
@@ -78,27 +86,35 @@ class HMARLHumanoidEnv(ParallelEnv):
         height = obs[0] if len(obs) > 0 else 1.0
         velocity = obs[22] if len(obs) > 22 else 0.0
         
-        # Coordinator gets base environment reward only
-        coord_reward = base_reward
-        
         # Coordinator learns to weight and scale the bonuses
         coord_weights = actions.get('coordinator', np.array([1.0, 1.0, 1.0]))  # speed_weight, stability_weight, sensitivity
         speed_weight = np.abs(coord_weights[0]) + 0.1
         stability_weight = np.abs(coord_weights[1]) + 0.1
-        sensitivity = np.abs(coord_weights[2]) + 0.1  # Overall bonus scaling factor
+        # Cap sensitivity to prevent excessive amplification
+        sensitivity = np.clip(np.abs(coord_weights[2]) + 0.1, 0.1, 0.6)  # Max 0.6 instead of 1.1
         
         # Normalize allocation weights
         allocation_weights = np.array([speed_weight, stability_weight])
         allocation_weights = allocation_weights / np.sum(allocation_weights)
         
-        # Performance bonuses/penalties
-        stability_bonus = 0.5 if height > 0.8 else -0.5
-        speed_bonus = max(0, velocity) * 0.3
+        # Raw performance metrics (scaled up to be significant vs base_reward)
+        stability_bonus = 3.0 if height > 0.8 else -3.0  # Increased from 0.5
+        speed_bonus = max(0, velocity) * 2.0  # Increased from 0.3
         
+        # Sub-agents get their weighted bonuses
+        legs_bonus = speed_bonus * allocation_weights[0] * sensitivity
+        torso_bonus = stability_bonus * allocation_weights[1] * sensitivity
+        
+        # Coordinator gets AVERAGE of sub-agent performance (prevents domination)
+        # This keeps coordinator reward in same scale as sub-agents
+        coord_bonus = (legs_bonus + torso_bonus) / 2.0
+        
+        # base_reward influence (30% base, 70% specialized)
+        base_weight = 0.3
         rewards = {
-            'legs': base_reward + speed_bonus * allocation_weights[0] * sensitivity,      # Coordinator controls speed emphasis and sensitivity
-            'torso': base_reward + stability_bonus * allocation_weights[1] * sensitivity, # Coordinator controls stability emphasis and sensitivity
-            'coordinator': coord_reward  # Just base reward for coordination learning
+            'legs': base_reward * base_weight + legs_bonus * 3.0,      # Mostly speed-focused
+            'torso': base_reward * base_weight + torso_bonus * 3.0,    # Mostly stability-focused
+            'coordinator': base_reward * base_weight + coord_bonus * 3.0  # Mostly coordination-focused
         }
         
         return rewards

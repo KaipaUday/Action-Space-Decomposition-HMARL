@@ -214,22 +214,42 @@ def main():
     else:
         print("❌ No runs completed successfully")
 
-def test_model(model_path="models/standard_rl/run_1/final_model.zip", episodes=10):
-    """TO Test the trained model"""
-    env = gym.make('Humanoid-v5', render_mode='human')
+def test_model(model_path="models/standard_rl/run_5/final_model.zip", episodes=20):
+    """Test the trained model"""
+    env = gym.make('Humanoid-v5', render_mode=None)
     model = SAC.load(model_path)
+    
+    print(f"Testing: {model_path}")
+    print("=" * 60)
+    
+    episode_rewards = []
+    episode_lengths = []
     
     for ep in range(episodes):
         obs, _ = env.reset()
         total_reward = 0
+        steps = 0
+        
         while True:
             action, _ = model.predict(obs, deterministic=True)
             obs, reward, terminated, truncated, _ = env.step(action)
             total_reward += reward
+            steps += 1
+            
             if terminated or truncated:
-                print(f"Episode {ep+1}: {total_reward:.2f}")
+                episode_rewards.append(total_reward)
+                episode_lengths.append(steps)
+                print(f"Episode {ep+1:2d}: {total_reward:7.2f} | Steps: {steps:4d}")
                 break
+    
     env.close()
+    
+    # Summary
+    print("=" * 60)
+    print(f"Avg Reward: {np.mean(episode_rewards):.2f} ± {np.std(episode_rewards):.2f}")
+    print(f"Avg Length: {np.mean(episode_lengths):.1f} ± {np.std(episode_lengths):.1f}")
+    print("=" * 60)
+
 
 if __name__ == "__main__":
     # main()

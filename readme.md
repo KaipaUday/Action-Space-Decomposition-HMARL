@@ -12,12 +12,7 @@ conda activate rl_env
 ```
 
 ### Install Dependencies
-Install all required packages:
-```bash
-pip install "stable-baselines3[extra]" "gymnasium[mujoco]" pandas torch
-```
-
-Or install from requirements.txt:
+install from requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```

@@ -77,6 +77,10 @@ class HMARLTrainer:
         total_steps = 0
         episode_count = 0
         
+        # Create separate writer for this run to avoid overlapping
+        from torch.utils.tensorboard import SummaryWriter
+        run_writer = SummaryWriter(log_dir=f"{self.log_dir}/run_{run_id}")
+        
         while total_steps < total_timesteps:
             observations, _ = self.env.reset()
             episode_step = 0
@@ -117,15 +121,15 @@ class HMARLTrainer:
                     avg_length = np.mean(episode_lengths[-20:]) if len(episode_lengths) >= 20 else episode_step
                     print(f"Run {run_id} | Step {total_steps:,}/{total_timesteps:,} | Episodes: {episode_count} | Avg Length: {avg_length:.1f}")
                     
-                    # Log to tensorboard
-                    self.tb_writer.add_scalar('training/avg_episode_length', avg_length, total_steps)
-                    self.tb_writer.add_scalar('training/total_episodes', episode_count, total_steps)
+                    # Log to run-specific writer
+                    run_writer.add_scalar('training/avg_episode_length', avg_length, total_steps)
+                    run_writer.add_scalar('training/total_episodes', episode_count, total_steps)
                     
                     # Log recent rewards
                     if episode_rewards['legs']:
                         recent_rewards = {agent: np.mean(episode_rewards[agent][-10:]) for agent in self.agent_names if episode_rewards[agent]}
                         for agent, reward in recent_rewards.items():
-                            self.tb_writer.add_scalar(f'training/avg_reward_{agent}', reward, total_steps)
+                            run_writer.add_scalar(f'training/avg_reward_{agent}', reward, total_steps)
                 
                 if any(terminated.values()) or any(truncated.values()):
                     break
@@ -136,13 +140,13 @@ class HMARLTrainer:
             for agent in self.agent_names:
                 episode_rewards[agent].append(episode_agent_rewards[agent])
             
-            # Log episode metrics to tensorboard
+            # Log episode metrics to run-specific writer
             total_reward = sum(episode_agent_rewards.values())
-            self.tb_writer.add_scalar('episode/length', episode_step, episode_count)
-            self.tb_writer.add_scalar('episode/total_reward', total_reward, episode_count)
+            run_writer.add_scalar('episode/length', episode_step, total_steps)
+            run_writer.add_scalar('episode/total_reward', total_reward, total_steps)
             
             for agent in self.agent_names:
-                self.tb_writer.add_scalar(f'episode/reward_{agent}', episode_agent_rewards[agent], episode_count)
+                run_writer.add_scalar(f'episode/reward_{agent}', episode_agent_rewards[agent], total_steps)
             
             if episode_count % 100 == 0:
                 print(f"Episode {episode_count}: {episode_step} steps, Total: {total_reward:.2f}")
@@ -164,9 +168,12 @@ class HMARLTrainer:
             'episode_rewards': episode_rewards
         }
         
-        # Log final metrics
-        self.tb_writer.add_scalar('run/final_length', final_length, run_id)
-        self.tb_writer.add_scalar('run/total_episodes', episode_count, run_id)
+        # Log final metrics to main writer (for cross-run comparison)
+        self.tb_writer.add_scalar('runs/final_length', final_length, run_id)
+        self.tb_writer.add_scalar('runs/total_episodes', episode_count, run_id)
+        
+        # Close run-specific writer
+        run_writer.close()
         
         print(f"Run {run_id} completed - Episodes: {episode_count}, Final length: {final_length:.2f}")
         return results
@@ -229,7 +236,7 @@ def main():
     }
     
     trainer = HMARLTrainer(config)
-    all_results, stats = trainer.train_multiple_runs(total_timesteps=1000000, n_runs=5)
+    all_results, stats = trainer.train_multiple_runs(total_timesteps=500000, n_runs=5)
     
     print("H-MARL training completed!")
     return all_results, stats
